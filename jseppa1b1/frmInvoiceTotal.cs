@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace jseppa1b1
 {
-    public partial class Form1 : Form
+    public partial class frmInvoiceTotal : Form
     {
-        public Form1()
+        public frmInvoiceTotal()
         {
             InitializeComponent();
+        }
+
+        private void frmInvoiceTotal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
