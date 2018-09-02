@@ -123,6 +123,7 @@
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnExit
             // 
@@ -133,6 +134,7 @@
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmInvoiceTotal
             // 
