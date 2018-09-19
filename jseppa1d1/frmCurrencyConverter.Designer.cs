@@ -216,7 +216,7 @@
             this.txtRateAustralia.Name = "txtRateAustralia";
             this.txtRateAustralia.Size = new System.Drawing.Size(132, 22);
             this.txtRateAustralia.TabIndex = 93;
-            this.txtRateAustralia.Text = "0.711178";
+            this.txtRateAustralia.Text = "7";
             this.txtRateAustralia.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtRateAustralia.TextChanged += new System.EventHandler(this.australiaTextChanged);
             // 
