@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2b1", "jseppa2b1\jsep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2c1", "jseppa2c1\jseppa2c1.csproj", "{A44D551B-0FE4-41DB-B082-280925060EA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2d1", "jseppa2d1\jseppa2d1.csproj", "{1B1BE445-D92C-4F6C-8D0D-4322DA3B9C78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A44D551B-0FE4-41DB-B082-280925060EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A44D551B-0FE4-41DB-B082-280925060EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A44D551B-0FE4-41DB-B082-280925060EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1BE445-D92C-4F6C-8D0D-4322DA3B9C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1BE445-D92C-4F6C-8D0D-4322DA3B9C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1BE445-D92C-4F6C-8D0D-4322DA3B9C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1BE445-D92C-4F6C-8D0D-4322DA3B9C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

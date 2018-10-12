@@ -638,7 +638,7 @@
             this.btnMultiply.UseVisualStyleBackColor = true;
             this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
-            // Form1
+            // frmValueTypes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -696,8 +696,8 @@
             this.Controls.Add(this.byte1textbox);
             this.Controls.Add(this.input2textBox);
             this.Controls.Add(this.input1textBox);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmValueTypes";
+            this.Text = "jseppa1c1: Value Types";
             this.ResumeLayout(false);
             this.PerformLayout();
 
