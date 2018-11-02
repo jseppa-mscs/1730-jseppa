@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2e1", "jseppa2e1\jsep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2e1UnitTest", "jseppa2e2UnitTest\jseppa2e1UnitTest.csproj", "{A005BF32-E373-41BF-A361-A94F69CF4D03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2f1", "jseppa2f1\jseppa2f1.csproj", "{57C64177-7B01-4F5F-A993-CA531371FBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2f1UnitTest", "jseppa2f1UnitTest\jseppa2f1UnitTest.csproj", "{67646FBF-CC1A-4BEE-AA97-64B53D59F6BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{A005BF32-E373-41BF-A361-A94F69CF4D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A005BF32-E373-41BF-A361-A94F69CF4D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A005BF32-E373-41BF-A361-A94F69CF4D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C64177-7B01-4F5F-A993-CA531371FBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C64177-7B01-4F5F-A993-CA531371FBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C64177-7B01-4F5F-A993-CA531371FBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C64177-7B01-4F5F-A993-CA531371FBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67646FBF-CC1A-4BEE-AA97-64B53D59F6BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67646FBF-CC1A-4BEE-AA97-64B53D59F6BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67646FBF-CC1A-4BEE-AA97-64B53D59F6BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67646FBF-CC1A-4BEE-AA97-64B53D59F6BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
