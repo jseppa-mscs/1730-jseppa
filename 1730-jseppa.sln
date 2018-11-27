@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa2h1.Tests", "jseppa2h
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringMethodsSamp", "StringMethodsSamp\StringMethodsSamp.csproj", "{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa3a1", "jseppa3a1\jseppa3a1.csproj", "{7367B003-7FB9-4170-8E8C-FD4C187C3A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa3a1UnitTests", "jseppa3a1UnitTests\jseppa3a1UnitTests.csproj", "{9A118909-2AFB-4A66-89A7-DA5C36ED59D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEB1977D-F705-4A3F-BBD2-7904D118BBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7367B003-7FB9-4170-8E8C-FD4C187C3A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7367B003-7FB9-4170-8E8C-FD4C187C3A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7367B003-7FB9-4170-8E8C-FD4C187C3A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7367B003-7FB9-4170-8E8C-FD4C187C3A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A118909-2AFB-4A66-89A7-DA5C36ED59D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A118909-2AFB-4A66-89A7-DA5C36ED59D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A118909-2AFB-4A66-89A7-DA5C36ED59D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A118909-2AFB-4A66-89A7-DA5C36ED59D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
