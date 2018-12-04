@@ -146,17 +146,17 @@ namespace jseppa3a1
             try
             {
                 int count = Int32.Parse(strCount);
-                int i = 1;
-                while (i <= count)
+                int i = 0;
+                while (i < count)
                 {
                     int endIndex = strNumbers.IndexOf(' ', startIndex);
                     string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
                     int number = Int32.Parse(strNumber);
+                    sum += number;
                     startIndex = endIndex + 1;
-                    
                     i++;
-                    
                 }
+                result = sum.ToString();
             }
             catch { result = "Invalid input"; }
             return result;
@@ -166,6 +166,7 @@ namespace jseppa3a1
         {
             string result = "";
             int startIndex = 0;
+            int sum = 0;
             try
             {
                 int count = Int32.Parse(strCount);
@@ -175,11 +176,12 @@ namespace jseppa3a1
                     int endIndex = strNumbers.IndexOf(' ', startIndex);
                     string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
                     int number = Int32.Parse(strNumber);
-                    
+                    sum += number;
                     startIndex = endIndex + 1;
                     i++;
                 }
-                while (i <= count);
+                while (i < count);
+                result = sum.ToString();
             }
             catch { result = "Invalid input"; }
             return result;
@@ -189,17 +191,19 @@ namespace jseppa3a1
         {
             string result = "";
             int startIndex = 0;
+            int sum = 0;
             try
             {
                 int count = Int32.Parse(strCount);
-                for (int i = 0; i <= count; i++)
+                for (int i = 0; i < count; i++)
                 {
                     int endIndex = strNumbers.IndexOf(' ', startIndex);
                     string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
                     int number = Int32.Parse(strNumber);
-                    
+                    sum += number;
                     startIndex = endIndex + 1;
                 }
+                result = sum.ToString();
             }
             catch { result = "Invalid input"; }
             return result;
