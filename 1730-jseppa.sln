@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa3a1UnitTests", "jsepp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa3b1", "jseppa3b1\jseppa3b1.csproj", "{475198D3-D23C-4DFF-B15E-EAFFB299BD92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa3b1UnitTests", "jseppa3b1UnitTests\jseppa3b1UnitTests.csproj", "{E39E9411-E853-44CF-ABAB-9FB469B0121D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jseppa3b1UnitTests", "jseppa3b1UnitTests\jseppa3b1UnitTests.csproj", "{E39E9411-E853-44CF-ABAB-9FB469B0121D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa3c1", "jseppa3c1\jseppa3c1.csproj", "{DD330DFC-500C-4ED7-A732-06D76548309F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jseppa3c1UnitTests", "jseppa3c1UnitTests\jseppa3c1UnitTests.csproj", "{C48D980E-2CF4-48E9-AD48-737B412A1171}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E39E9411-E853-44CF-ABAB-9FB469B0121D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E39E9411-E853-44CF-ABAB-9FB469B0121D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E39E9411-E853-44CF-ABAB-9FB469B0121D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD330DFC-500C-4ED7-A732-06D76548309F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD330DFC-500C-4ED7-A732-06D76548309F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD330DFC-500C-4ED7-A732-06D76548309F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD330DFC-500C-4ED7-A732-06D76548309F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48D980E-2CF4-48E9-AD48-737B412A1171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48D980E-2CF4-48E9-AD48-737B412A1171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48D980E-2CF4-48E9-AD48-737B412A1171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48D980E-2CF4-48E9-AD48-737B412A1171}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

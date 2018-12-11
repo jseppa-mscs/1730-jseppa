@@ -92,8 +92,8 @@ namespace jseppa3b1
         // 8 String Gross Pay
         public static decimal GrossPay(string strNumbers, decimal rate)
         {
-            decimal strGrossPay = (GrossPay * TotalHours).ToString("n2");
-            return strGrossPay;
+            decimal totalHours = TotalHours(strNumbers);
+            return GrossPay(totalHours, rate);
         }
     }
 }
