@@ -96,10 +96,10 @@ namespace jseppa3c1
                 double[] numbers6 = new double[inputListBox6a.Items.Count];
                 for (int i = 0; i < numbers6.Length; i++)
                    numbers6[i] = Double.Parse(inputListBox5a.Items.GetItemAt(i).ToString());
-                double[] aboveAvg = Ex3cCalculations.Calc6(numbers6);
-                foreach (double num in aboveAvg)
+                double[] aboveAvgList = Ex3cCalculations.Calc6(numbers6);
+                foreach (double num in aboveAvgList)
                 {
-                    resultListBox6.Items.Add();
+                    resultListBox6.Items.Add(num);
                 }
 
             }
@@ -120,6 +120,7 @@ namespace jseppa3c1
                 MessageBox.Show("Invalid input: " + inputTextBox4a.Text);
                 this.inputTextBox4a.Focus();
             }
+           
             //5 
             try
             {
@@ -127,6 +128,15 @@ namespace jseppa3c1
                 this.inputListBox5a.Items.Add(input.ToString("f1"));
                 this.resultTextBox5.Text = "";
                 this.inputListBox5a.ScrollIntoView(inputListBox5a.Items[inputListBox5a.Items.Count - 1]);
+            }
+            catch { }
+            
+            // 6
+            try
+            {
+                double input = Double.Parse(this.inputTextBox4a.Text);
+                this.inputListBox6a.Items.Add(input.ToString("f1"));
+                this.inputListBox6a.ScrollIntoView(inputListBox6a.Items[inputListBox6a.Items.Count - 1]);
             }
             catch { }
         }
